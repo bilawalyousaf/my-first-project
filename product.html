@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modern & Responsive Website Solutions</title>
+
+
+<link href="css/style.css" rel="stylesheet">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,300;1,600;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+<body>
+<!--Header-->
+	<header>
+	<div class="logo">
+		<img "width=300px" src="images/car logo.png">
+</div>
+<nav>
+<div class="nav-links" id="navLinks">
+	<i class="fas fa-times" onclick="hideMenu()"></i>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About us</a></li>
+		<li><a href="blog.html">Blogs</a></li>
+		<li><a href="contact.html">Contact us</a></li>
+		<li><a href="services.html">services</a></li>
+		<li><a href="product.html">product</a></li>
+		<li><a href="team.html">team</a></li>
+	</ul>
+</div>
+
+<i class="fas fa-bars" onclick="showMenu()"></i>
+
+</nav>
+</header>
+
+<!--Header-->
+
+<!--product page-->
+
+	<div class="inner-banner"">
+		<div class="text-block">
+			<h1>Products</h1>
+			<p>Shop from Our Amazing Products</p>
+		</div>
+</div>
+
+<h1 class="heading">Products</h1>
+
+<div class="row p40">
+	<div class="container">
+	
+		<div class="col-4 text-center product_card">
+			<img src="images/product/p1.png" class="img-responsive">
+			<p class="product-name"> LED TV 32"</p>
+			<h3 class="price">$60</h3>
+			<a href="#" class="btn-shop"> Shop Now </a>
+		</div>
+		
+		<div class="col-4 text-center product_card">
+			<img src="images/product/p2.jpg" class="img-responsive">
+			<p class="product-name"> wireless mouse</p>
+			<h3 class="price">$10</h3>
+			<a href="#" class="btn-shop"> Shop Now </a>
+		</div>
+		
+		<div class="col-4 text-center product_card">
+			<img src="images/product/p6.png" class="img-responsive">
+			<p class="product-name">CPU</p>
+			<h3 class="price">$100</h3>
+			<a href="#" class="btn-shop"> Shop Now </a>
+		</div>
+		
+		
+		
+
+	</div>		
+</div>
+
+
+<!--Product page-->
+
+<!--footer-->
+
+<footer>
+	<div class="row">
+			<div class="container">
+			<div class="col-3">
+				<h3>information</h3>
+					<ul class="footer-menu">
+						<li>first menu</li>
+						<li>second menu</li>
+						<li>third menu</li>
+						<li>fourth menu</li>
+					</ul>	
+			</div>
+			
+			
+					<div class="col-3">
+				<h3>about us</h3>
+					<ul class="footer-menu">
+						<li>first menu</li>
+						<li>second menu</li>
+						<li>third menu</li>
+						<li>fourth menu</li>
+					</ul>	
+			</div>
+			
+					<div class="col-3">
+				<h3>services</h3>
+					<ul class="footer-menu">
+						<li>first menu</li>
+						<li>second menu</li>
+						<li>third menu</li>
+						<li>fourth menu</li>
+					</ul>	
+			</div>
+			
+					<div class="col-3">
+				<h3>contact us</h3>
+					<ul class="footer-menu">
+						<li>first menu</li>
+						<li>second menu</li>
+						<li>third menu</li>
+						<li>fourth menu</li>
+					</ul>	
+			</div>
+			
+			
+		</div>
+	</div>
+</footer>
+
+<div class="copyright">
+		<p>copyright &copy; 2024 | tarweej ul quran.PK</p>
+		
+	</div>
+
+
+<!--footer-->
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu() {
+		navLinks.style.left="0";
+}
+function hideMenu() {
+	navLinks.style.left="-200px";
+}
+
+</script>
+
+</body>
+</html>
